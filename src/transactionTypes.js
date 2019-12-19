@@ -1,0 +1,8 @@
+export const MINT = 'mint'
+export const APPROVE = 'approve'
+export const REGISTER = 'register'
+export const VEST = 'vest'
+export const WITHDRAW_VEST = 'withdraw_vest'
+export const CONFIRM_VEST = 'confirm_vest_increase'
+export const DEPOSIT = 'deposit'
+export const WITHDRAW_DEPOST = 'withdraw_deposit'

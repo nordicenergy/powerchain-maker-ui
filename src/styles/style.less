@@ -1,0 +1,82 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import 'colors.less';
+
+.btn-tile {
+    .btn-check {
+        @apply absolute top-0 right-0 mr-4 mt-4;
+    }
+    &.btn-tile-active {
+        @apply border-active bg-active-tile;
+    }
+    width: 180px;
+    height: 180px;
+    @apply relative flex flex-col items-center justify-center rounded-lg text-inactive bg-white text-lg font-medium border-2 border-off cursor-pointer;
+}
+.btn-tile:hover {
+    @apply border-active bg-active-tile;
+
+    span {
+        @apply text-secondary;
+    }
+}
+
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -10px;
+    border-radius: 50%;
+    border: 2px solid #cc9900;
+    border-top-color: #fff;
+    animation: spinner .6s linear infinite;
+}
+
+.spinner-button:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #DBDDE2;
+    border-top-color: #fff;
+    animation: spinner .6s linear infinite;
+}
+
+.spinner-in-page:before {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-left: -15px;
+    margin-top: -15px;
+    border-radius: 50%;
+    border: 2px solid #cc9900;
+    border-top-color: #fff;
+    animation: spinner .6s linear infinite;
+}
+
+.tooltip-triangle {
+    width: 0;
+    height: 0;
+    margin-top: 10px;
+    margin-left: -20px;
+    border-style: solid;
+    border-width: 20px 20px 20px 0;
+    border-color: transparent #3d3d3d transparent transparent;
+}
