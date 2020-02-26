@@ -1,4 +1,7 @@
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9c0ec7d5-74a4-4bc2-af2d-96ecff235200/deploy-status)](https://app.netlify.com/sites/powerchain-maker/deploys)
+
+
 # PowerChain Maker UI (development)
 
 Utility to create and monitor Nordic Energy´s PowerChain. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
