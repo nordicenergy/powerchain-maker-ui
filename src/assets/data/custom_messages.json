@@ -16,7 +16,7 @@
     "rpcPort": "please enter RPC(Remote Procedure Call) port for remote interactions.",
     "whisperPort": "Please enter a port for data to travel from one node to another over a network.",
     "constellationPort": "Please enter a port to make transactons between nodes.",
-    "raftPort": "Please enter a port to achieve raft concensus for PowerChain.",
+    "raftPort": "Please enter a port to achieve raft concensus for powerchain.",
     "nodeManagerPort": "Please enter a port to start a service."
   },
   "customMessageJoin": {
@@ -25,7 +25,7 @@
     "rpcPort": "Please enter RPC(Remote Procedure Call) port for remote interactions.",
     "whisperPort": "Please enter a port for data to travel from one node to another over a network.",
     "constellationPort": "Please enter a port to make transactons between nodes.",
-    "raftPort": "Please enter a port to achieve raft concensus for PowerChain.",
+    "raftPort": "Please enter a port to achieve raft concensus for powerchain.",
     "nodeManagerPort": "Please enter a service port of already created node.",
     "masterIP": "Please enter a IP address of already created node to join a network.",
     "masterNodeManagerPort": "Please enter a port to start a service."
