@@ -1,4 +1,4 @@
-@import '../../../sass/variables';
+@import '~sass/variables';
 label.required:after {
     color: #d00;
     content: "*";
@@ -10,7 +10,7 @@ label.required:after {
 .network-container {
     .has-error {
         .form-control {
-            border-bottom-color:  #b38f00;
+            border-bottom-color: #cca300;
         }
     }
     .ng-invalid {

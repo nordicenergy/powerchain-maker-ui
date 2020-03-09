@@ -3,9 +3,9 @@ import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { routes } from './app.routes';
 
-import { HeaderModule } from './components/shared/header/header.module';
-import { DashboardModule } from './components/dashboard/dashboard.module';
-import { networkModule } from './components/network/network.module';
+import { HeaderModule } from '../app/components/shared/header/header.module';
+import { DashboardModule } from '../app/components/dashboard/dashboard.module';
+import { networkModule } from '../app/components/network/network.module';
 import { AppComponent } from './app.component';
 import { FieldErrorDisplayComponent } from './components/field-error-display/field-error-display.component';
 // import { AppService } from '../app/service/app.service';

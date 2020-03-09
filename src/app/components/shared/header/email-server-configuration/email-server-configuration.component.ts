@@ -1,6 +1,6 @@
 import { Component, NgModule, OnInit, Input, Output, EventEmitter, OnDestroy } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { emailServerConfig } from '../../../../models';
+import { emailServerConfig } from '../../../../models/';
 import { CommonService } from '../../../../service/common-service';
 import { Router } from "@angular/router";
 import { Message } from 'primeng/api';

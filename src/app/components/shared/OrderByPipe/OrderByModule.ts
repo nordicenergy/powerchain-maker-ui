@@ -1,5 +1,5 @@
 // other imports
-import { OrderByPipe } from './orderby.pipe';
+import { OrderByPipe } from '../OrderByPipe/orderby.pipe';
 import { NgModule } from '@angular/core';
 
 @NgModule({

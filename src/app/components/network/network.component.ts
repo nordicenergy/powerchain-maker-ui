@@ -1,6 +1,6 @@
 import { Component, NgModule, OnInit } from '@angular/core';
 import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
-import { CreateNetwork, JoinNetwork } from "../../models";
+import { CreateNetwork, JoinNetwork } from "../../models/";
 import { CommonService } from '../../service/common-service';
 import { Router } from "@angular/router";
 import { Message } from 'primeng/api';

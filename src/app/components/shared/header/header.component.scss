@@ -1,6 +1,6 @@
-@import '../../../../sass/variables';
-@import '../../../../sass/mixins';
-@import '../../../../sass/fonts';
+@import '~sass/variables';
+@import '~sass/mixins';
+@import '~sass/fonts';
 .header {
     display: block;
     padding: 15px 0;
@@ -24,7 +24,7 @@
                 float: left;
                 &.logo {
                     width: 162px;
-                    background-color: #6675a8;
+                    background-color: #808080;
                     display: block;
                     text-align: center;
                     padding: 8px 0 10px 0;
@@ -45,7 +45,7 @@
             float: left;
             width: 45px;
             border-radius: 7px;
-            background-color: #f8e71c;
+            background-color: #e6b800;
             text-align: center;
             font-family: $Heebo-Medium;
             font-size: 8px;
@@ -128,11 +128,11 @@
                                     height: 5px;
                                     border-radius: 6px;
                                     &-track {
-                                        background-color: #424962;
+                                        background-color: #4d4d4d;
                                         border-radius: 6px;
                                     }
                                     &-thumb {
-                                        background-color: #e6b800;
+                                        background-color: #808080;
                                         border-radius: 6px;
                                     }
                                     &-button {
@@ -225,7 +225,7 @@
                         padding: 5px 10px 5px 10px;
                         color: $WhiteColor;
                         font-size: 13px;
-                        background: #647197;
+                        background: #808080;
                         border-radius: 4px;
                         font-family: $Heebo-Regular;
                         &:hover {
@@ -254,7 +254,7 @@
                         padding: 5px 10px 5px 10px;
                         color: $WhiteColor;
                         font-size: 13px;
-                        background: #647197;
+                        background: #808080;
                         border-radius: 4px;
                         font-family: $Heebo-Regular;
                         @include mq($mobileLandscape) {
@@ -300,7 +300,7 @@
     top: 25px;
     right: 0;
     position: absolute;
-    background:  #333333;
+    background: #333333;
     max-height: 200px;
     color:white;
     font-family: "Heebo-Light";
@@ -314,7 +314,7 @@
     list-style: none;
     font-size: 12px;
     padding: 0px;
-    color: #b5d3f7;
+    color: #ffd11a;
     margin-bottom: 5px;
     border-bottom: 1px solid white;
 }

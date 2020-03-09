@@ -1,6 +1,6 @@
-@import '../../../../../sass/variables';
-@import '../../../../../sass/mixins';
-@import '../../../../../sass/fonts';
+@import '~sass/variables';
+@import '~sass/mixins';
+@import '~sass/fonts';
 .p-dialog-wrapper {
     .p-dialog-inner {
         height: auto;
@@ -18,11 +18,11 @@
                 height: 5px;
                 border-radius: 6px;
                 &-track {
-                    background-color: #333333;
+                    background-color: #404040;
                     border-radius: 6px;
                 }
                 &-thumb {
-                    background-color: #e6b800;
+                    background-color: #808080;
                     border-radius: 6px;
                 }
                 &-button {
@@ -69,14 +69,14 @@
             opacity: 0.6;
         }
         .icon-background1 {
-            color: #ffcc00;
+            color: #618acd;
         }
         .fa-info-circle:before {
             content: "\f05a";
         }
-        .btn-green {
+        .btn-orange {
             border-radius: 4px;
-            background-color: $GreenColorBtn;
+            background-color: $OrangeColorBtn;
             font-family: $Heebo-Medium;
             border: 0;
             color: #fff;
@@ -108,7 +108,7 @@
         }
         .has-error {
             .form-control {
-                border-bottom-color:  #b38f00;
+                border-bottom-color: #cca300;
             }
         }
         .ng-invalid {

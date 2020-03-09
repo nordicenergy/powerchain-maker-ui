@@ -11,7 +11,7 @@
             <label class="col-md-3">Add New Ip</label>
             <!-- <p-inputMask [(ngModel)]="listItems" required=true class="form-control col-md-5" mask="99.99.99.999"></p-inputMask> -->
             <input type="text" [required]="true" class="form-control col-md-5" [(ngModel)]="listItems">
-            <button type="button" class="btn btn-green col-md-3" (click)="addWhiteListIp(listItems)">Add</button>
+            <button (click)="addWhiteListIp(listItems)" class="btn btn-orange col-md-3" type="button">Add</button>
           </div>
           <div class="v-scrollbar">
             <div *ngIf="whitelists">
@@ -30,9 +30,9 @@
             </div>
             <div class="ip-bottom text-center">
               <div class="btn-group">
-                <button type="button" class="btn btn-green" *ngIf="hideAddNewBtn != true" (click)="addNewWhiteListIp()">Add New Ip</button>
+                <button (click)="addNewWhiteListIp()" *ngIf="hideAddNewBtn != true" class="btn btn-orange" type="button">Add New Ip</button>
                 <button type="button" *ngIf="whitelists?.length > 0 || enableBtnForDeleted || hideAddNewBtn == true" [disabled]="disableSave()"
-                  class="btn btn-green btn-footer" (click)="updateWhiteListIp()">Save</button>
+                  (click)="updateWhiteListIp()" class="btn btn-orange btn-footer">Save</button>
               </div>
             </div>
             <hr>

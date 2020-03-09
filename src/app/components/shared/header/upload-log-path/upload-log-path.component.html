@@ -25,7 +25,7 @@
                 </div>
                 <div class="row form-footer">
                     <div class="col-md-12 form-group">
-                        <button type="submit" [disabled]="uploadLogsPathForm.invalid" (click)="submitForm(uploadLogsPathForm.value)" class="btn btn-green pull-right">SUBMIT</button>
+                        <button (click)="submitForm(uploadLogsPathForm.value)" [disabled]="uploadLogsPathForm.invalid" class="btn btn-orange pull-right" type="submit">SUBMIT</button>
                     </div>
                 </div>
             </form>

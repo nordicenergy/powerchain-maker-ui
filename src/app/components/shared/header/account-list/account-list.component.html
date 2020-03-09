@@ -10,7 +10,7 @@
         <label class="col-md-4 float-left">Create New Account:</label>
         <input type="password" placeholder="Enter Password Here" class="form-control col-md-5 float-left" [(ngModel)]="pwdAccount">
         <div class="col-md-3 float-left">
-          <button type="button" class="btn btn-green" (click)="addAccount(pwdAccount)">Submit</button>
+          <button (click)="addAccount(pwdAccount)" class="btn btn-orange" type="button">Submit</button>
         </div>
       </div>
       <hr/>
