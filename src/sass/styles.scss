@@ -1,8 +1,8 @@
-@import 'variables';
-@import 'mixins';
-@import 'fonts';
+@import '~sass/variables';
+@import '~sass/mixins';
+@import '~sass/fonts';
 body {
-    background-color: #1b2136;
+    background-color: #262626;
     background-image: url('/assets/images/bg.jpg');
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -97,16 +97,16 @@ body {
 }
 
 .icon-background1 {
-    color: #ffcc00;
+    color: #618acd;
 }
 
 .fa-info-circle:before {
     content: "\f05a";
 }
 
-.btn-green {
+.btn-orange {
     border-radius: 4px;
-    background-color: $GreenColorBtn;
+    background-color: $OrangeColorBtn;
     font-family: $Heebo-Medium;
     border: 0;
     color: #fff;
@@ -212,11 +212,11 @@ body {
             height: 5px;
             border-radius: 6px;
             &-track {
-                background-color: #424962;
+                background-color: #4d4d4d;
                 border-radius: 6px;
             }
             &-thumb {
-                background-color: #e6b800;
+                background-color: #808080;
                 border-radius: 6px;
             }
             &-button {
@@ -239,19 +239,19 @@ body {
             h4 {
                 display: block;
                 span {
-                    color: #e6b800;
+                    color: #ffcc00;
                     font-size: 14px;
                     font-family: $Heebo-Light;
                 }
                 em {
-                    color: #e6b800;
+                    color: #f5ba64;
                     font-size: 14px;
                     font-family: $Heebo-Light;
                 }
             }
             .ui-accordion-content {
                 padding: 0;
-                background:  #4d4d4d;
+                background: #333333;
                 color: inherit;
                 .block-list-inner {
                     .table {
@@ -270,7 +270,7 @@ body {
                             font-size: 13px;
                             font-family: $Heebo-Light;
                             &.col-md-4 {
-                                color: #a6a6a6;
+                                color: #9b9b9b;
                                 @media (min-width: 1920px) {
                                     width: 26%;
                                 }
@@ -283,7 +283,7 @@ body {
                                 }
                             }
                             &.parentHash {
-                                color: #a6a6a6;
+                                color: #9b9b9b;
                                 width: 16%;
                                 @media (min-width: 1920px) {
                                     width: 13%;
@@ -393,7 +393,7 @@ body {
                 }
             }
             .ui-accordion-header {
-                background:  #4d4d4d !important;
+                background: #333333 !important;
                 border: 0;
                 overflow: hidden;
                 margin-bottom: 1px;
@@ -438,7 +438,7 @@ body {
                             margin-bottom: 10px;
                         }
                         .block-title {
-                            color: #f8e71c;
+                            color: #e6b800;
                             font-size: 13px;
                             font-family: $Heebo-Light;
                             padding: 6px 0 0 25px;
@@ -448,7 +448,7 @@ body {
                         }
                         .block-time {
                             text-align: right;
-                            color: #e6b800;
+                            color: #f5ba64;
                             font-size: 12px;
                             font-family: $Heebo-Light;
                             @include mq($tabletLandscape) {
@@ -472,7 +472,7 @@ body {
                         }
                         .hash-title {
                             text-align: left;
-                            color: #a6a6a6;
+                            color: #9b9b9b;
                             font-size: 13px;
                             font-family: $Heebo-Light;
                             padding: 0 0 0 25px;
@@ -483,7 +483,7 @@ body {
                         }
                         .hash-detail {
                             text-align: left;
-                            color: #a6a6a6;
+                            color: #9b9b9b;
                             font-size: 13px;
                             font-family: $Heebo-Light;
                             padding: 0;
@@ -514,7 +514,7 @@ body {
                             .col-md-4 {
                                 font-size: 12px;
                                 font-family: $Heebo-Light;
-                                color: #b5d3f7;
+                                color: #ffd11a;
                                 overflow: hidden;
                                 text-overflow: ellipsis;
                                 display: inline-block;
@@ -560,7 +560,7 @@ body {
                                 color: red;
                             }
                             &.private {
-                                color: #7ed321;
+                                color:  #b38f00;
                             }
                             &.public {
                                 color: rgb(73, 121, 224);
@@ -588,7 +588,7 @@ body {
 
 .selected {
     >.ui-accordion-header {
-        border: 1px solid #f8e71c !important;
+        border: 1px solid #e6b800 !important;
         .ui-accordion-toggle-icon {
             &.fa-caret-right {
                 background: url(/assets/images/img-block-arrow-down.png) no-repeat 0 0 !important;
@@ -603,7 +603,7 @@ body {
         }
     }
     >.ui-accordion-content-wrapper {
-        border: 1px solid #f8e71c;
+        border: 1px solid #e6b800;
         border-top: 0;
         &.ui-accordion-content-wrapper-overflown {
             border: 0;
@@ -664,7 +664,7 @@ body {
                 margin-left: 0px;
                 &:before {
                     font-size: 23px;
-                    color: #788995;
+                    color: #808080;
                 }
             }
         }
@@ -694,7 +694,7 @@ body {
     padding: 5px 10px;
     margin-bottom: 15px;
     .ui-accordion-header {
-        border-bottom: 1px solid #5c606f !important;
+        border-bottom: 1px solid  #595959 !important;
         margin-bottom: 10px !important;
     }
     .ui-accordion-header-text {
@@ -723,14 +723,14 @@ body {
     .item-col-2 {
         width: 50%;
         float: left;
-        border-bottom: 1px solid #565965;
+        border-bottom: 1px solid #595959;
         margin-bottom: 8px;
         &:nth-child(odd) {
             padding-left: 10px;
         }
         .item {
             width: 10%;
-            color: #a6a6a6;
+            color: #9b9b9b;
             float: left;
             white-space: nowrap;
             overflow: hidden;
@@ -771,7 +771,7 @@ body {
                 font-size: 14px;
                 display: inline-block;
                 letter-spacing: 0.5px;
-                color: #30354a;
+                color: #404040;
                 text-transform: uppercase;
                 margin: 0;
             }
@@ -803,7 +803,7 @@ ng2-odometer {
 
 .block-box-wrapper {
     ng2-odometer {
-        color: #e6b800;
+        color: #ffcc00;
     }
 }
 
@@ -831,7 +831,7 @@ ng2-odometer {
     width: 29px;
     height: 26px;
     box-sizing: border-box;
-    border: 1px solid #647197;
+    border: 1px solid #808080;
     background-color: transparent;
     background-image: url(/assets/images/search.png);
     background-position: center 2px;
