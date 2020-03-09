@@ -6,7 +6,7 @@
 
 Utility to create and monitor Nordic Energy´s PowerChain. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
-![Landing Page](docs/images/screenshot2.png)
+![Landing Page](docs/images/screenshot1.png)
 
 ### Development server
 
